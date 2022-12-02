@@ -1,0 +1,197 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "fullName": "Marin Georgiev",
+      "email": "marin@gmail.com",
+      "phoneNumber": "+3598855446633",
+      "password": "123456789",
+      "isAdmin": false,
+      "isVIP": false
+    },
+    {
+      "id": 2,
+      "fullName": "Ivan Petrov",
+      "email": "ivan@gmail.com",
+      "phoneNumber": "+359887788446",
+      "password": "123456789",
+      "isAdmin": true,
+      "isVIP": true
+    }
+  ],
+  "vehicles": [
+    {
+      "id": 1,
+      "brand": "Audi",
+      "model": "RS7",
+      "constructionYear": "2020",
+      "numberOfSeats": "4",
+      "picture": "https://i.ytimg.com/vi/NN6TyGrfPwg/maxresdefault.jpg",
+      "availableVehicles": "2",
+      "pricePerDay": "50",
+      "fuelTypeId": "2",
+      "vehicleTypeId": "3"
+    },
+    {
+      "id": 2,
+      "brand": "VW",
+      "model": "Jetta",
+      "constructionYear": "2016",
+      "numberOfSeats": "5",
+      "picture": "https://g1-bg.cars.bg/2022-11-03_2/636399b02dbd9d665301d3f2o.jpg",
+      "availableVehicles": "3",
+      "pricePerDay": "30",
+      "fuelTypeId": "2",
+      "vehicleTypeId": "3"
+    },
+    {
+      "id": 3,
+      "brand": "Kia",
+      "model": "K5",
+      "constructionYear": "2017",
+      "numberOfSeats": "4",
+      "picture": "https://g1-bg.cars.bg/2022-08-31_1/630f11165571fddeb00fdd22o.jpg",
+      "availableVehicles": "3",
+      "pricePerDay": "30",
+      "fuelTypeId": "1",
+      "vehicleTypeId": "1"
+    },
+    {
+      "id": 4,
+      "brand": "Jaguar",
+      "model": "XF",
+      "constructionYear": "2012",
+      "numberOfSeats": "4",
+      "picture": "https://g1-bg.cars.bg/2022-04-20_2/625ff5c71c26050adc045053o.jpg",
+      "availableVehicles": "2",
+      "pricePerDay": "35",
+      "fuelTypeId": "1",
+      "vehicleTypeId": "3"
+    },
+    {
+      "id": 5,
+      "brand": "Mercedes-Benz",
+      "model": "GLS",
+      "constructionYear": "2020",
+      "numberOfSeats": "4",
+      "picture": "https://g1-bg.cars.bg/2022-10-26_2/63592b58c6ffb5c5fd0d88d2o.jpg",
+      "availableVehicles": "2",
+      "pricePerDay": "45",
+      "fuelTypeId": "1",
+      "vehicleTypeId": "4"
+    },
+    {
+      "id": 6,
+      "brand": "Chevrolet",
+      "model": "Equinox",
+      "constructionYear": "2022",
+      "numberOfSeats": "4",
+      "picture": "https://g1-bg.cars.bg/2022-12-01_2/6388c8ec8be5bb1a06091ad3o.jpg",
+      "availableVehicles": "2",
+      "pricePerDay": "45",
+      "fuelTypeId": "1",
+      "vehicleTypeId": "4"
+    },
+    {
+      "id": 7,
+      "brand": "Hyundai",
+      "model": "Tuscon",
+      "constructionYear": "2022",
+      "numberOfSeats": "4",
+      "picture": "https://s7d1.scene7.com/is/image/hyundai/2022-tucson-hev?wid=1200&hei=630&qlt=85,0&fmt=webp",
+      "availableVehicles": "5",
+      "pricePerDay": "60",
+      "fuelTypeId": "4",
+      "vehicleTypeId": "4"
+    },
+    {
+      "id": 8,
+      "brand": "Chevrolet",
+      "model": "Camaro",
+      "constructionYear": "2010",
+      "numberOfSeats": "2",
+      "picture": "https://g1-bg.cars.bg/2022-09-29_1/6334fde989396377350e8ed2o.jpg",
+      "availableVehicles": "2",
+      "pricePerDay": "50",
+      "fuelTypeId": "1",
+      "vehicleTypeId": "3"
+    }
+  ],
+  "vehicle_types": [
+    {
+      "id": 1,
+      "name": "Economy"
+    },
+    {
+      "id": 2,
+      "name": "Estate"
+    },
+    {
+      "id": 3,
+      "name": "Luxury"
+    },
+    {
+      "id": 4,
+      "name": "SUV"
+    },
+    {
+      "id": 5,
+      "name": "Cargo"
+    }
+  ],
+  "fuel_types": [
+    {
+      "id": 1,
+      "name": "Petrol"
+    },
+    {
+      "id": 2,
+      "name": "Diesel"
+    },
+    {
+      "id": 3,
+      "name": "Hybrid"
+    },
+    {
+      "id": 4,
+      "name": "Electric"
+    }
+  ],
+  "rental_events": [
+    {
+      "id": 1,
+      "startDateTime": "2022-12-02T00:19",
+      "endDateTime": "2022-12-10T00:19",
+      "userId": 1,
+      "vehicleId": 8
+    },
+    {
+      "id": 2,
+      "startDateTime": "2022-12-10T01:46",
+      "endDateTime": "2022-12-30T01:46",
+      "userId": 2,
+      "vehicleId": 2
+    },
+    {
+      "id": 3,
+      "startDateTime": "2022-12-12T01:47",
+      "endDateTime": "2022-12-17T01:47",
+      "userId": 2,
+      "vehicleId": 8
+    },
+    {
+      "id": 4,
+      "startDateTime": "2022-12-16T01:47",
+      "endDateTime": "2022-12-31T01:47",
+      "userId": 2,
+      "vehicleId": 1
+    },
+    {
+      "id": 5,
+      "startDateTime": "2023-01-19T01:48",
+      "endDateTime": "2023-01-27T01:48",
+      "userId": 2,
+      "vehicleId": 3
+    }
+  ]
+}
