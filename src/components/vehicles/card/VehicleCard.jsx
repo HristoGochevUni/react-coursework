@@ -46,7 +46,7 @@ export function VehicleCard({vehicle, onDeleted}) {
         getAllRentalEvents("", vehicle.id).then(response => {
             setRentals(response.data)
         })
-    }, [rentals, vehicle.id])
+    }, [vehicle.id])
 
     return <div
         className="rounded-md overflow-hidden shadow bg-gray-300 flex flex-col border border-gray-800 border-opacity-90">
